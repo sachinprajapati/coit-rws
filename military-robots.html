@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="src/css/style.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="logo"><img src="src/Logo.png"></a>
+  <a href="domestic-robots.html">Domestic Robots</a>
+  <a href="industrial-robots.html">Industrial Robots</a>
+  <a href="military-robots.html">Military Robots</a>
+  <a href="educational-robots.html">Special Demo</a>
+  <a href="business-hours.html">About Us</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li>Domestic Robots</li>
+      <li>Industrial Robots</li>
+      <li>Military Robots</li>
+      <li>Special Demo - Educational Robotics</li>
+    </ul>
+  </div>
+
+  <h1>Industrial Robots</h1>
+  <div class="col-4 col-s-3 grid-items">
+    <ul>
+      <li><img src="src/Military_Robots/M1.jpg">
+      <h4>Epson Discproducer PP-100</h4></li>
+      <li><img src="src/Military_Robots/M2.jpg">
+      <h4>PR KUKA Industrial Robot KR15</h4></li>
+      <li><img src="src/Military_Robots/M3.jpg">
+      <h4>PR KUKA Industrial Robot KR16</h4></li>
+    </ul>
+  </div>
+  <div class="col-4 col-s-3 grid-items">
+    <ul>
+      <li><img src="src/Military_Robots/M4.jpg">
+      <h4>MotoMan MA1400</h4></li>
+      <li><img src="src/Military_Robots/M5.jpg">
+      <h4>Brokk Demolition Robot</h4></li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="footer">
+  <p>Resize the browser window to see how the content respond to the resizing.</p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
+
