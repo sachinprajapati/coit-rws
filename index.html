@@ -2,21 +2,26 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="src/css/style.css">
 </head>
 <body>
 
 <div class="topnav" id="myTopnav">
   <a href="index.html" class="logo"><img src="src/Logo.png"></a>
-  <a href="domestic-robots.html">Domestic Robots</a>
-  <a href="#contact">Industrial Robots</a>
-  <a href="#about">Military Robots</a>
-  <a href="business-hours.html">Special Demo</a>
-  <a href="business-hours.html">About Us</a>
+  <a href="domestic-robots.html"><span>Domestic Robots</span></a>
+  <a href="industrial-robots.html"><span>Industrial Robots</span></a>
+  <a href="military-robots.html"><span>Military Robots</span></a>
+  <a href="educational-robots.html"><span>Special Demo</span></a>
+  <a href="business-hours.html"><span>About Us</span></a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
+    <img src="src/fa-bars.png" class="fa-bar">
   </a>
+</div>
+
+<div class="row">
+  <div class="col-12 col-s-12">
+    <marquee>Welcome User we are offering various types robots</marquee>
+  </div>
 </div>
 
 
@@ -26,29 +31,77 @@
       <li>Domestic Robots</li>
       <li>Industrial Robots</li>
       <li>Military Robots</li>
-      <li>Special Demo - Educational Robotics</li>
+      <li>Educational Robotics</li>
     </ul>
+    <h3>Eexhibition Hall</h3>
+    <img src="src/Floor_Plan.jpg" style="width: 100%;">
   </div>
 
   <div class="col-6 col-s-9">
-    <h1>The City</h1>
-    <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+    <h1>We Have</h1>
+    <ul class="robots-items">
+      <li>Domestic Robots
+        <ol class="nested-items">
+          <li>Domestic Robots</li>
+          <li>Industrial Robots</li>
+          <li>Military Robots</li>
+          <li>Special Demo - Educational Robotics</li>
+        </ol>
+      </li>
+      <li>Industrial Robots
+        <ol class="nested-items">
+          <li>Domestic Robots</li>
+          <li>Industrial Robots</li>
+          <li>Military Robots</li>
+          <li>Special Demo - Educational Robotics</li>
+        </ol>
+      </li>
+      <li>Military Robots
+        <ol class="nested-items">
+          <li>Domestic Robots</li>
+          <li>Industrial Robots</li>
+          <li>Military Robots</li>
+          <li>Special Demo - Educational Robotics</li>
+        </ol>
+      </li>
+      <li>Special Demo - Educational Robotics
+        <ol class="nested-items">
+          <li>Domestic Robots</li>
+          <li>Industrial Robots</li>
+          <li>Military Robots</li>
+          <li>Special Demo - Educational Robotics</li>
+        </ol>
+      </li>
+    </ul>
   </div>
 
   <div class="col-3 col-s-12">
     <div class="aside">
-      <h2>What?</h2>
-      <p>Chania is a city on the island of Crete.</p>
-      <h2>Where?</h2>
-      <p>Crete is a Greek island in the Mediterranean Sea.</p>
-      <h2>How?</h2>
-      <p>You can reach Chania airport from all over Europe.</p>
+    <h3>Contact Us</h3>
+      <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Age</label>
+        <input type="number" id="lname" name="lname">
+        <label for="fname">First Name</label>
+        <select>
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+        <label for="lname">Country of Origin</label>
+        <input type="text" id="lname" name="lname">
+        <label for="lname">Personal Interest</label>
+        <input type="text" id="lname" name="lname">
+        <label for="lname">Comments</label>
+        <textarea></textarea>
+        <input type="submit" name="Submit">
+      </form>
     </div>
   </div>
 </div>
 
 <div class="footer">
-  <p>Resize the browser window to see how the content respond to the resizing.</p>
+  <p>The images contained therein in the folders marked 'Industrial Robots', 'Educational Robotics', 'Domestic Robots' and 'Military Robots' were sourced from various internet websites. These images are not used for profit or business purposes. Its sole purpose is for education. All efforts were made to ascertain that these images were sourced from a public domain source where the sites has been clearly been asserted as such. In the event that these images are copyighted and ownership can be evidenced, please contact Andrew Chiou (a.chiou@cqu.edu.au) and the images will be immediately removed from this archive.</p>
 </div>
 
 <script>
